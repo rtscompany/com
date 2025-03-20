@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #c90c0c;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: arial;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.button {
+    cursor: pointer;
+    background: #c90c0c;
+    color: white;
+    padding: 10px;
+    font-family: arial;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin: 10px 0px;
+    text-align: center;
+    width: 125px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .3s;
+    display: inline-block;
+}
+.button:hover{
+    background: #f63131e3;
+}
+.mainform {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 750px;
+}
+.mainform h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.mainform h2{
+    text-align: center;
+    font-weight: 600;
+    align-items: center;
+    color: red;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fc0303;
+    display: grid;
+    margin-bottom: 10px;
+}
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information h1 {
+    font-size: 18px;
+    font-family: arial;
+}
+
+.information h1 {
+    text-align: left;
+    margin: 10px 0px;
+}
+.photo {
+    width: 30%;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.photo img {
+    width: 70%;
+}
+.data{
+    width: 65%;
+}
+.logo {
+    width: 152px;
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    padding: 7px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 7px gray;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 24px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex h1 {
+    font-size: 35px;
+    font-family: arial;
+    margin-bottom: 60px;
+}
+.data h3 {
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
