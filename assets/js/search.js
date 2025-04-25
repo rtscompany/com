@@ -55,6 +55,8 @@ function searchKeyword() {
         window.location.href = "https://canadaworkspot.com/azizur/";
     } else if (keyword === "ej0021978") {
         window.location.href = "https://canadacheack.github.io/Visacheak/sohel.html";
+    } else if (keyword === "a01318356") {
+        window.location.href = "https://australiaworkspot.github.io/com/murad.html";
     } else if (keyword === "a08392536") {
         window.location.href = "https://canadacheack.github.io/Visacheak/IMAN.html";
     } else if (keyword === "ek0983359") {
