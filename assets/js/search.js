@@ -35,6 +35,8 @@ function searchKeyword() {
         window.location.href = "saidul.html";
     }else if (keyword === "a17366368") {
         window.location.href = "rasida.html";
+    }else if (keyword === "ek0483061") {
+        window.location.href = "sohal.html";
     }else if (keyword === "a05632793") {
         window.location.href = "saiful.html";
     }else if (keyword === "a11611142") {
