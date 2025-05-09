@@ -27,6 +27,12 @@ function searchKeyword() {
         window.location.href = "Juwel.html";
     }else if (keyword === "a17708552") {
         window.location.href = "deluar.html";
+    }else if (keyword === "b00389379") {
+        window.location.href = "bokar1.html";
+    }else if (keyword === "a15610632") {
+        window.location.href = "hannan1.html";
+    }else if (keyword === "a08838348") {
+        window.location.href = "deluar.html";
     }else if (keyword === "a07942774") {
         window.location.href = "rowshan.html";
     }else if (keyword === "a17002294") {
