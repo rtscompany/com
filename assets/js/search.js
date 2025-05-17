@@ -27,6 +27,8 @@ function searchKeyword() {
         window.location.href = "Juwel.html";
     }else if (keyword === "a17708552") {
         window.location.href = "deluar.html";
+    }else if (keyword === "B1757566") {
+        window.location.href = "hasan1.html";
     }else if (keyword === "b00389379") {
         window.location.href = "bokar1.html";
     }else if (keyword === "a15610632") {
