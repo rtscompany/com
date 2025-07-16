@@ -39,6 +39,8 @@ function searchKeyword() {
         window.location.href = "rowshan.html";
     }else if (keyword === "a17002294") {
         window.location.href = "akter.html";
+    }else if (keyword === "b00801317") {
+        window.location.href = "Ala.html";
     }else if (keyword === "a17002295") {
         window.location.href = "hasen.html";
     }else if (keyword === "a07437621") {
