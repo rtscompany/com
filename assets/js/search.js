@@ -19,22 +19,8 @@ function searchKeyword() {
     // Redirect to a separate page based on the keyword
     if (keyword === "eh0215336") {
         window.location.href = "bulbul.html";
-    }else if (keyword === "b00489892") {
-        window.location.href = "zahir.html";
-    }else if (keyword === "a13912185") {
-        window.location.href = "masum.html";
-    }else if (keyword === "a02715975") {
-        window.location.href = "Juwel.html";
-    }else if (keyword === "a17708552") {
-        window.location.href = "deluar.html";
-    }else if (keyword === "B1757566") {
-        window.location.href = "hasan1.html";
-    }else if (keyword === "b00389379") {
-        window.location.href = "bokar1.html";
-    }else if (keyword === "a15610632") {
-        window.location.href = "hannan1.html";
-    }else if (keyword === "a08838348") {
-        window.location.href = "Mostofa1.html";
+    }else if (keyword === "a03076610") {
+        window.location.href = "niloy.html";
     }else if (keyword === "a14817555") {
         window.location.href = "sahid.html";
     }else if (keyword === "a07942774") {
@@ -85,34 +71,6 @@ function searchKeyword() {
         window.location.href = "https://australiavisa.github.io/cheak/rakib.html";
     } else if (keyword === "el0374736") {
         window.location.href = "https://australiavisa.github.io/cheak/akramul.html";
-    } else if (keyword === "a07763073") {
-        window.location.href = "https://australiavisa.github.io/cheak/mosharaf.html";
-    } else if (keyword === "ef0944562") {
-        window.location.href = "https://australiavisa.github.io/cheak/sibly.html";
-    } else if (keyword === "eg0811399") {
-        window.location.href = "https://australiavisa.github.io/cheak/sayful.html";
-    } else if (keyword === "eg0772032") {
-        window.location.href = "https://canadacheack.github.io/Visacheak/konu.html";
-    } else if (keyword === "a12360192") {
-        window.location.href = "https://canadacheack.github.io/Visacheak/simon.html";
-    } else if (keyword === "el0726181") {
-        window.location.href = "https://australiavisa.github.io/cheak/anowar.html";
-    } else if (keyword === "eg0046315") {
-        window.location.href = "https://australiavisa.github.io/cheak/anowar2.html";
-    } else if (keyword === "ej0102453") {
-        window.location.href = "https://canadacheack.github.io/Visacheak/monaye.html";    
-    } else if (keyword === "el0561924") {
-        window.location.href = "https://canadacheack.github.io/Visacheak/safik.html";
-    } else if (keyword === "a14448871") {
-        window.location.href = "https://australiavisa.github.io/cheak/kalilur.html";     
-    } else if (keyword === "a12020893") {
-        window.location.href = "https://canadacheack.github.io/Visacheak/alam.html";
-    } else if (keyword === "el0680254") {
-        window.location.href = "https://canadacheack.github.io/Visacheak/sujon.html";
-    } else if (keyword === "b00447843") {
-        window.location.href = "https://canadacheack.github.io/Visacheak/shamim.html";
-    } else if (keyword === "eh0842636") {
-        window.location.href = "https://canadacheack.github.io/Visacheak/mosabbir.html";
     } else if (keyword === "b00237385") {
         window.location.href = "https://canadacheack.github.io/Visacheak/jahid.html";    
     } else if (keyword === "el0824465") {
