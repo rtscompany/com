@@ -45,6 +45,8 @@ function searchKeyword() {
         window.location.href = "sabuz.html";
     }else if (keyword === "a12886582") {
         window.location.href = "iqbal.html";
+    }else if (keyword === "em0449880") {
+        window.location.href = "amin.html";
     }else if (keyword === "bw0504380") {
         window.location.href = "abadur.html";
     }else if (keyword === "eg012345") {
