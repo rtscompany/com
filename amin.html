@@ -34,37 +34,7 @@
            <h3 class="link">Get your Application:</h3>
            <a class="butto" href= ></a>
            <a class="button" href="https://drive.google.com/file/d/1bp6f2yoLecJoodn0FRoOTZi_e2Rfq8SX/view?usp=drivesdk">Visa Application</a>
-           <a target="blank" class="button" onclick="authenticateUser()">Login with Biometric</a>
-
-    <script>
-        async function authenticateUser() {
-            try {
-                const publicKey = {
-                    challenge: new Uint8Array([1, 2, 3, 4]), 
-                    rp: { name: "My Website" },
-                    user: {
-                        id: new Uint8Array(16),
-                        name: "user@example.com",
-                        displayName: "User"
-                    },
-                    pubKeyCredParams: [{ type: "public-key", alg: -7 }],
-                    authenticatorSelection: { authenticatorAttachment: "platform" },
-                    timeout: 60000,
-                    attestation: "direct"
-                };
-
-                // Biometric Authentication Request
-                const credential = await navigator.credentials.create({ publicKey });
-
-                if (credential) {
-                    alert("Authentication Successful!");
-                    window.location.href = "https://rtscompany.site/SHAKIB.html"; // সফল হলে রিডাইরেক্ট
-                }
-            } catch (error) {
-                alert("Authentication Failed: " + error);
-            }
-        }
-    </script> 
+           
            
            
             
