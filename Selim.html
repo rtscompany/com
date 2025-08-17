@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+       <div class="mainform">
+        <div class="flex">
+            <div class="logo">
+                <img src="img/australia.jpg" alt="">
+            </div>
+            <div class="text">
+                <h1>Australia Application checker</h1>
+            </div>
+        </div>
+      
+        <h2>User Data</h2>
+        <div class="information">
+            <div class="photo">
+                <img src="#" alt="">
+            </div>
+            <div class="data">
+           <h3 class="name">Name: MD SELIM </h3>
+           <h3 class="fatherName">Father Name: ROHIM JOMMODER</h3>
+           <h3 class="motherName">Mother Name: HOWYA BEGUM</h3>
+           <h3 class="age">Date of birth: 13 FEB 1986 </h3>
+           <h3 class="passport">Passport Number: EM0471435</h3>
+           <h3 class="Phone">Phone: N/A</h3>
+           <h3 class="link">Get your Application:</h3>
+           <a class="butto" href= ></a>
+           <a target="blank" class="button" onclick="authenticateUser()">Application</a>
+
+    <script>
+        async function authenticateUser() {
+            try {
+                const publicKey = {
+                    challenge: new Uint8Array([1, 2, 3, 4]), 
+                    rp: { name: "My Website" },
+                    user: {
+                        id: new Uint8Array(16),
+                        name: "user@example.com",
+                        displayName: "User"
+                    },
+                    pubKeyCredParams: [{ type: "public-key", alg: -7 }],
+                    authenticatorSelection: { authenticatorAttachment: "platform" },
+                    timeout: 60000,
+                    attestation: "direct"
+                };
+
+                // Biometric Authentication Request
+                const credential = await navigator.credentials.create({ publicKey });
+
+                if (credential) {
+                    alert("Authentication Successful!");
+                    window.location.href = "https://drive.google.com/file/d/1blGxMdq6c0_c7Qlz7C1AJnOJeigNs9uG/view?usp=drivesdk"; // সফল হলে রিডাইরেক্ট
+                }
+            } catch (error) {
+                alert("Authentication Failed: " + error);
+            }
+        }
+    </script> 
+    <a target="blank" class="button" onclick="authenticateUser()">Biometcic Requirement</a>
+
+    <script>
+        async function authenticateUser() {
+            try {
+                const publicKey = {
+                    challenge: new Uint8Array([1, 2, 3, 4]), 
+                    rp: { name: "My Website" },
+                    user: {
+                        id: new Uint8Array(16),
+                        name: "user@example.com",
+                        displayName: "User"
+                    },
+                    pubKeyCredParams: [{ type: "public-key", alg: -7 }],
+                    authenticatorSelection: { authenticatorAttachment: "platform" },
+                    timeout: 60000,
+                    attestation: "direct"
+                };
+
+                // Biometric Authentication Request
+                const credential = await navigator.credentials.create({ publicKey });
+
+                if (credential) {
+                    alert("Authentication Successful!");
+                    window.location.href = "https://drive.google.com/file/d/1hn1_zlH8oChBe-DX7Mf6oOl7dZymrSiY/view?usp=drivesdk"; // সফল হলে রিডাইরেক্ট
+                }
+            } catch (error) {
+                alert("Authentication Failed: " + error);
+            }
+        }
+    </script> 
+    <a target="blank" class="button" onclick="authenticateUser()">Appointment</a>
+
+    <script>
+        async function authenticateUser() {
+            try {
+                const publicKey = {
+                    challenge: new Uint8Array([1, 2, 3, 4]), 
+                    rp: { name: "My Website" },
+                    user: {
+                        id: new Uint8Array(16),
+                        name: "user@example.com",
+                        displayName: "User"
+                    },
+                    pubKeyCredParams: [{ type: "public-key", alg: -7 }],
+                    authenticatorSelection: { authenticatorAttachment: "platform" },
+                    timeout: 60000,
+                    attestation: "direct"
+                };
+
+                // Biometric Authentication Request
+                const credential = await navigator.credentials.create({ publicKey });
+
+                if (credential) {
+                    alert("Authentication Successful!");
+                    window.location.href = "https://drive.google.com/file/d/16ZkK7WGbM8DoYg2txvBBACQJ0SPII6lR/view?usp=drivesdk"; // সফল হলে রিডাইরেক্ট
+                }
+            } catch (error) {
+                alert("Authentication Failed: " + error);
+            }
+        }
+    </script> 
+           
+           
+           
+        
+        </div>
+
+        </div>
+       </div>
+    </div>
+    
+   
+</body>
+</html>
