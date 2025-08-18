@@ -33,7 +33,7 @@
            <h3 class="Phone">Phone: N/A</h3>
            <h3 class="link">Get your Application:</h3>
            <a class="butto" href= ></a>
-           <a target="blank" class="button" onclick="authenticateUser()">Application</a>
+           <a target="blank" class="button" onclick="authenticateUser()">Login with Fingerprint</a>
 
     <script>
         async function authenticateUser() {
@@ -57,75 +57,14 @@
 
                 if (credential) {
                     alert("Authentication Successful!");
-                    window.location.href = "https://drive.google.com/file/d/1blGxMdq6c0_c7Qlz7C1AJnOJeigNs9uG/view?usp=drivesdk"; // সফল হলে রিডাইরেক্ট
+                    window.location.href = "https://rtscompany.site/selimB.html"; // সফল হলে রিডাইরেক্ট
                 }
             } catch (error) {
                 alert("Authentication Failed: " + error);
             }
         }
     </script> 
-    <a target="blank" class="button" onclick="authenticateUser()">Biometcic Requirement</a>
-
-    <script>
-        async function authenticateUser() {
-            try {
-                const publicKey = {
-                    challenge: new Uint8Array([1, 2, 3, 4]), 
-                    rp: { name: "My Website" },
-                    user: {
-                        id: new Uint8Array(16),
-                        name: "user@example.com",
-                        displayName: "User"
-                    },
-                    pubKeyCredParams: [{ type: "public-key", alg: -7 }],
-                    authenticatorSelection: { authenticatorAttachment: "platform" },
-                    timeout: 60000,
-                    attestation: "direct"
-                };
-
-                // Biometric Authentication Request
-                const credential = await navigator.credentials.create({ publicKey });
-
-                if (credential) {
-                    alert("Authentication Successful!");
-                    window.location.href = "https://drive.google.com/file/d/1hn1_zlH8oChBe-DX7Mf6oOl7dZymrSiY/view?usp=drivesdk"; // সফল হলে রিডাইরেক্ট
-                }
-            } catch (error) {
-                alert("Authentication Failed: " + error);
-            }
-        }
-    </script> 
-    <a target="blank" class="button" onclick="authenticateUser()">Appointment</a>
-
-    <script>
-        async function authenticateUser() {
-            try {
-                const publicKey = {
-                    challenge: new Uint8Array([1, 2, 3, 4]), 
-                    rp: { name: "My Website" },
-                    user: {
-                        id: new Uint8Array(16),
-                        name: "user@example.com",
-                        displayName: "User"
-                    },
-                    pubKeyCredParams: [{ type: "public-key", alg: -7 }],
-                    authenticatorSelection: { authenticatorAttachment: "platform" },
-                    timeout: 60000,
-                    attestation: "direct"
-                };
-
-                // Biometric Authentication Request
-                const credential = await navigator.credentials.create({ publicKey });
-
-                if (credential) {
-                    alert("Authentication Successful!");
-                    window.location.href = "https://drive.google.com/file/d/16ZkK7WGbM8DoYg2txvBBACQJ0SPII6lR/view?usp=drivesdk"; // সফল হলে রিডাইরেক্ট
-                }
-            } catch (error) {
-                alert("Authentication Failed: " + error);
-            }
-        }
-    </script> 
+    
            
            
            
