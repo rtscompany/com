@@ -1,13 +1,104 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style2.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>কার্ড ডিটেইলস ফর্ম</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .card-form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    width: 380px;
+  }
+  .card-form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  .form-group {
+    margin-bottom: 18px;
+  }
+  label {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+    font-weight: 600;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="month"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.8px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="month"]:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  .small-input {
+    width: 48%;
+    display: inline-block;
+  }
+  .small-input:first-child {
+    margin-right: 4%;
+  }
+  button {
+    width: 100%;
+    background-color: #4a90e2;
+    color: white;
+    padding: 14px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+  button:hover {
+    background-color: #357ABD;
+  }
+</style>
 </head>
 <body>
-    <div class="img">
-    <img src="imeg/Bokar Work Permit.jpg" alt="">
+
+<div class="card-form">
+  <h2>কার্ড ডিটেইলস</h2>
+  <form id="cardDetailsForm" autocomplete="off">
+    <div class="form-group">
+      <label for="cardHolder">কার্ডহোল্ডারের নাম</label>
+      <input type="text" id="cardHolder" name="cardHolder" placeholder="John Doe" required />
+    </div>
+    <div class="form-group">
+      <label for="cardNumber">কার্ড নম্বর</label>
+      <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19" required />
+    </div>
+    <div class="form-group">
+      <label>মেয়াদ</label>
+      <input class="small-input" type="text" id="expiryMonth" name="expiryMonth" placeholder="MM" maxlength="2" required />
+      <input class="small-input" type="text" id="expiryYear" name="expiryYear" placeholder="YY" maxlength="2" required />
+    </div>
+    <div class="form-group">
+      <label for="cvv">CVV</label>
+      <input type="password" id="cvv" name="cvv" maxlength="4" placeholder="123" required />
+    </div>
+    <button type="submit">পেমেন্ট করুন</button>
+  </form>
 </div>
+
 </body>
 </html>
