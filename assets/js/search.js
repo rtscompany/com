@@ -31,8 +31,8 @@ function searchKeyword() {
         window.location.href = "";
     } else if (keyword === "") {
         window.location.href = "";
-    } else if (keyword === "") {
-        window.location.href = "";
+    } else if (keyword === "123123123") {
+        window.location.href = "demo.html";
     } else if (keyword === "") {
         window.location.href = "";
     } else if (keyword === "ea0586806") {
