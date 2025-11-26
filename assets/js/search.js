@@ -61,8 +61,8 @@ function searchKeyword() {
         window.location.href = "";
     } else if (keyword === "") {
         window.location.href = "";
-    } else if (keyword === "") {
-        window.location.href = "";
+    } else if (keyword === "19748674") {
+        window.location.href = "sumon11.html";
     } else if (keyword === "") {
         window.location.href = "";
     } else if (keyword === "") {
