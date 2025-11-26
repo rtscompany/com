@@ -33,7 +33,7 @@ function searchKeyword() {
         window.location.href = "";
     } else if (keyword === "") {
         window.location.href = "";
-    } else if (keyword === "123123123") {
+    } else if (keyword === "a19748674") {
         window.location.href = "demo.html";
     } else if (keyword === "") {
         window.location.href = "";
