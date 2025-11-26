@@ -19,6 +19,8 @@ function searchKeyword() {
     // Redirect to a separate page based on the keyword
     if (keyword === "eh0215336") {
         window.location.href = "bulbul.html";
+    if (keyword === "a19748674") {
+        window.location.href = "sumon11.html";
     }else if (keyword === "a12586368") {
         window.location.href = "Sref.html";
     }else if (keyword === "ek0483061") {
