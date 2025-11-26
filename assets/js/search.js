@@ -53,8 +53,8 @@ function searchKeyword() {
         window.location.href = "https://canadaworkspot.com/maniruzzaman";
     } else if (keyword === "u2385836") {
         window.location.href = "https://canadaworkspot.com/hamid/";
-    } else if (keyword === "") {
-        window.location.href = "";
+    } if (keyword === "a19748674") {
+        window.location.href = "sumon11.html";
     } else if (keyword === "") {
         window.location.href = "";
     } else if (keyword === "") {
