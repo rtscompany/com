@@ -19,8 +19,8 @@ function searchKeyword() {
     // Redirect to a separate page based on the keyword
     if (keyword === "eh0215336") {
         window.location.href = "bulbul.html";
-    if (keyword === "a19748674") {
-        window.location.href = "sumon11.html";
+    if (keyword === " ") {
+        window.location.href = " ";
     }else if (keyword === "a12586368") {
         window.location.href = "Sref.html";
     }else if (keyword === "ek0483061") {
@@ -53,8 +53,8 @@ function searchKeyword() {
         window.location.href = "https://canadaworkspot.com/maniruzzaman";
     } else if (keyword === "u2385836") {
         window.location.href = "https://canadaworkspot.com/hamid/";
-    } if (keyword === "a19748674") {
-        window.location.href = "sumon11.html";
+    } if (keyword === " ") {
+        window.location.href = " ";
     } else if (keyword === "") {
         window.location.href = "";
     } else if (keyword === "") {
