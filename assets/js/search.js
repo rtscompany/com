@@ -33,8 +33,6 @@ function searchKeyword() {
         window.location.href = "";
     } else if (keyword === "") {
         window.location.href = "";
-    } else if (keyword === "a19748674") {
-        window.location.href = "demo.html";
     } else if (keyword === "") {
         window.location.href = "";
     } else if (keyword === "ea0586806") {
@@ -61,8 +59,6 @@ function searchKeyword() {
         window.location.href = "";
     } else if (keyword === "") {
         window.location.href = "";
-    } else if (keyword === "19748674") {
-        window.location.href = "sumon11.html";
     } else if (keyword === "") {
         window.location.href = "";
     } else if (keyword === "") {
